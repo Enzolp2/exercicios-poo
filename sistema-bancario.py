@@ -26,7 +26,7 @@ class Conta:
         return self.__agencia
     @agencia.setter
     def agencia(self, agencia):
-        self.__agencia = agencia
+        self.__agencia = agencia 
 
 
 
