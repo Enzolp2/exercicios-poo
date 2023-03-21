@@ -31,9 +31,19 @@ class Conta:
 
 
 class ContaCorrente(Conta):
-    def __init__(self):
+    def __init__(self, n_conta, cpf, agencia):
+        super().__init__(n_conta, cpf, agencia)
+    
+    def saque(self):
+        pass
+    def deposito(self):
+        pass
+    def trasnferencia(self):
         pass
 
 class ContaPoupança(Conta):
-    def __init__(self):
+    def __init__(self, n_conta, cpf, agencia):
+        super().__init__(n_conta, cpf, agencia)
+    
+    def rendimento(self):
         pass
